@@ -101,7 +101,7 @@ namespace SunagimoGames
 			var codeSb = new StringBuilder();
 			codeSb.Append("namespace" + SPACE + NAMESPACE + NEWLINE + "{" + NEWLINE);
 			codeSb.Append(TAB + "///" + SPACE + "<summary>" + NEWLINE);
-			codeSb.Append(TAB + "///" + SPACE + SCENES_FILE_NAME + "。" + SPACE + NEWLINE);
+			codeSb.Append(TAB + "///" + SPACE + SCENES_FILE_NAME + "（自動生成クラス）。" + SPACE + NEWLINE);
 			codeSb.Append(TAB + "///" + SPACE + "</summary>" + SPACE + NEWLINE);
 			
 			codeSb.Append(TAB + "public enum" + SPACE + SCENES_FILE_NAME + NEWLINE + TAB + "{" + NEWLINE);
@@ -143,7 +143,7 @@ namespace SunagimoGames
 			codeSb.Append("namespace" + SPACE + NAMESPACE + NEWLINE + "{" + NEWLINE);
 			
 			codeSb.Append(TAB + "///" + SPACE + "<summary>" + NEWLINE);
-			codeSb.Append(TAB + "///" + SPACE + SCENES_FILE_NAME + "拡張クラス。" + NEWLINE);
+			codeSb.Append(TAB + "///" + SPACE + SCENES_FILE_NAME + "拡張クラス（自動生成クラス）。" + NEWLINE);
 			codeSb.Append(TAB + "///" + SPACE + "</summary>" + SPACE + NEWLINE);
 			
 			codeSb.Append(TAB + "public static class" + SPACE + SCENESHELPER_FILE_NAME + NEWLINE + TAB + "{" + NEWLINE);

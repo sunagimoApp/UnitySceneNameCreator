@@ -1,7 +1,7 @@
 ﻿namespace SunagimoGames
 {
 	/// <summary>
-	/// Scenes。 
+	/// Scenes（自動生成クラス）。 
 	/// </summary> 
 	public enum Scenes
 	{
