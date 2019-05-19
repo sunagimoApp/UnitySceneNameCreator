@@ -1,7 +1,7 @@
 ﻿namespace SunagimoGames
 {
 	/// <summary>
-	/// Scenes拡張クラス。
+	/// Scenes拡張クラス（自動生成クラス）。
 	/// </summary> 
 	public static class ScenesHelper
 	{
